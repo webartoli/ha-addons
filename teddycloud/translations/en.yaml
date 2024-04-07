@@ -1,0 +1,4 @@
+---
+network:
+  80/tcp: HTTP Entrance port
+  443/tcp: HTTPS/SSL Toniebox ingress port

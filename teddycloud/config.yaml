@@ -11,6 +11,7 @@ arch:
 - aarch64
 - amd64
 - armv7
+webui: http://[HOST]:[PORT:80]
 map:
 - addon_config:rw
 image: ghcr.io/toniebox-reverse-engineering/teddycloud
@@ -19,12 +20,9 @@ options:
 schema:
   log_level: list(trace|debug|info|notice|warning|error|fatal)?
 # Ingress settings
-ingress: true
+ingress: false
 ingress_port: 80
 panel_icon: 'mdi:cube'
 ports:
-  80/tcp: null
+  80/tcp: 85
   443/tcp: 444
-ports_description:
-  80/tcp: Not required for Ingress
-  443/tcp: Required for tonies connection
