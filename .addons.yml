@@ -1,0 +1,7 @@
+---
+channel: stable
+addons:
+  cloudflared:
+    repository: webartoli/ha-addon-teddycloud
+    target: teddycloud
+    image: ghcr.io/toniebox-reverse-engineering/teddycloud/{arch}
