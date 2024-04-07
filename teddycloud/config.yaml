@@ -21,4 +21,4 @@ schema:
 # Ingress settings
 ingress: true
 ingress_port: 80
-panel_icon: 'mdi:chip'
+panel_icon: 'mdi:cube'
