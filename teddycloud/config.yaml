@@ -20,5 +20,10 @@ schema:
   log_level: list(trace|debug|info|notice|warning|error|fatal)?
 # Ingress settings
 ingress: true
-ingress_port: 80
+ingress_port: 1337
+ingress_stream: true
 panel_icon: 'mdi:cube'
+ports:
+  80/tcp: null
+ports_description:
+  80/tcp: Not required for Ingress
