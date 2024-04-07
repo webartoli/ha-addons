@@ -25,5 +25,7 @@ ingress_stream: true
 panel_icon: 'mdi:cube'
 ports:
   80/tcp: null
+  443/tcp: 444
 ports_description:
   80/tcp: Not required for Ingress
+  443/tcp: Required for tonies connection
