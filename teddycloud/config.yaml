@@ -1,5 +1,5 @@
 name: Teddy Cloud
-version: tc_v0.4.3
+version: 0.4.3_alpine
 slug: teddycloud
 description: Alternative server for your Toniebox, allowing you to host the cloud services locally
 url: https://github.com/toniebox-reverse-engineering/teddycloud
@@ -13,7 +13,7 @@ arch:
 - armv7
 map:
 - addon_config:rw
-image: ghcr.io/toniebox-reverse-engineering/teddycloud/{arch}
+image: ghcr.io/toniebox-reverse-engineering/teddycloud
 options:
   log_level: 'info'
 schema:
