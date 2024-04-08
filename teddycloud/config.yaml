@@ -12,8 +12,6 @@ arch:
 - amd64
 - armv7
 webui: http://[HOST]:[PORT:80]
-map:
-- addon_config:rw
 image: ghcr.io/toniebox-reverse-engineering/teddycloud
 options:
   log_level: 'info'
@@ -26,3 +24,4 @@ panel_icon: 'mdi:cube'
 ports:
   80/tcp: 85
   443/tcp: 444
+  
